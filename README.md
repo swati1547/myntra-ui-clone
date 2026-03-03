@@ -27,6 +27,27 @@ This project follows an architecture-first approach:
 
 ---
 
+## Architecture Highlights
+
+- Custom rem() utility for consistent typography scaling
+- Strict SCSS module architecture (abstracts, components, layout)
+- Namespaced Sass modules using @use and @forward
+- Design-token-driven spacing and typography system
+- Responsive-ready structure using centralized breakpoint system
+
+---
+
+## Learning Objectives
+
+This project is focused on deepening frontend engineering fundamentals:
+
+- Scalable styling architecture
+- Maintainable component patterns
+- Real-world project structuring
+- Clean Git commit discipline
+
+---
+
 ## Current Features
 
 - Navigation bar
@@ -36,7 +57,7 @@ This project follows an architecture-first approach:
 - Structured SCSS architecture
 - Scalable styling system
 
-_More features are actively being developed._
+_Feature set is being incrementally expanded with focus on architectural stability._
 
 ---
 
