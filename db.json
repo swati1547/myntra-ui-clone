@@ -114,63 +114,7 @@
 
   "products": [
     {
-      "id": "w0014",
-      "name": "Liquid Foundation",
-      "slug": "liquid-foundation",
-      "categoryId": "cat_women_makeup",
-      "subcategoryId": "subcat_foundation",
-      "categorySlug": "makeup",
-      "subCategorySlug": "foundation",
-      "brandId": "brand_maybelline",
-      "basePrice": 1299,
-      "currency": "INR",
-      "discountPercentage": 15,
-      "isActive": true,
-      "isFeatured": false,
-      "tags": ["foundation", "makeup", "liquid"],
-      "images": [
-        {
-          "url": "https://m.media-amazon.com/images/I/61JTG53HldL._SX522_.jpg",
-          "altText": "Foundation",
-          "isPrimary": true
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/71wy+kInAsL._SX522_.jpg",
-          "altText": "Foundation",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/81K2gUmCC6L._SL1500_.jpg",
-          "altText": "Foundation",
-          "isPrimary": false
-        }
-      ],
-      "specifications": {
-        "shade": "Beige",
-        "finish": "Matte",
-        "volume": "30ml"
-      },
-      "variants": [
-        {
-          "variantId": "v009",
-          "sku": "FOUND-BEIGE",
-          "attributes": {
-            "shade": "Beige"
-          },
-          "price": 1104,
-          "compareAtPrice": 1299,
-          "isAvailable": true
-        }
-      ],
-      "totalQuantity": 220,
-      "ratingAverage": 4.5,
-      "reviewCount": 500,
-      "viewCount": 45000,
-      "createdAt": "2025-01-09T10:00:00Z",
-      "updatedAt": "2025-01-21T10:00:00Z"
-    },
-    {
-      "id": "w005",
+      "id": "w001",
       "name": "Women A-Line Dress",
       "productSlug": "h&m-women-a-line-dress-1",
       "categoryId": "cat_women_westernwear",
@@ -181,97 +125,308 @@
       "subCategoryName": "Dresses",
       "brandId": "brand_hm",
       "brandName": "H&M",
+      "brandSlug": "h-m",
       "basePrice": 2999,
       "currency": "INR",
-      "discountPercentage": 40,
+      "discountPercentage": 66,
       "isActive": true,
-      "isFeatured": false,
-      "tags": ["dress", "western", "a-line", "women"],
-      "images": [
-        {
-          "url": "https://m.media-amazon.com/images/I/61dWOhkzKKL._SY879_.jpg",
-          "altText": "Women A-Line dress front view",
-          "isPrimary": true
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/619mG3mFkgL._SY741_.jpg",
-          "altText": "Women A-Line dress back view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/619tc7IXPTL._SY741_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61gEakFONiL._SX679_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/91m2+1zpoqL._SX679_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61SEbDxR-mL._SY741_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        }
-      ],
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
       "productDetails": [
-        "Solid color design",
-        "Sleeveless with shoulder straps",
-        "Flattering A-line silhouette",
-        "Midi length with straight hem"
+        "White and blue floral print a-line dress",
+        "Sweetheart neck",
+        "Short, puff sleeve",
+        "Gathered or pleated detail",
+        "Midi length in straight hem",
+        "Crepe fabric",
+        "Concealed zip closure",
+        "High-Slit"
       ],
       "specifications": {
         "Shape": "A-Line",
-        "Neck": "Shoulder Straps",
+        "Neck": "Sweetheart Neck",
         "Length": "Midi",
-        "Sleeve Length": "Sleeveless",
-        "Fabric": "Polyester",
+        "Sleeve Length": "Short Sleeves",
+        "Sleeve Styling": "Puff Sleeves",
+        "Knit or Woven": "Woven",
         "Hemline": "Straight",
-        "Occasion": "Casual",
-        "Fit": "Regular Fit"
+        "Transparency": "Opaque"
       },
       "sizeAndFit": {
         "modelHeight": "5'8\"",
         "modelSize": "S"
       },
       "materialAndCare": {
-        "material": "Polyester",
-        "care": "Dry Clean"
+        "material": "Polycrepe",
+        "care": "Machine Wash"
       },
+      "colorVariants": [
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/61dWOhkzKKL._SY879_.jpg",
+              "altText": "Women A-Line dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/619mG3mFkgL._SY741_.jpg",
+              "altText": "Women A-Line dress back view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/619tc7IXPTL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61gEakFONiL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/91m2+1zpoqL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61SEbDxR-mL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
       "variants": [
         {
           "variantId": "v1",
-          "sku": "HM-AL-S",
-          "attributes": {
-            "size": "S"
-          },
-          "price": 1799,
-          "isAvailable": true
+          "sku": "HM_FLORAL_BLUE_A_S",
+          "color": "blue",
+          "size": "S",
+          "price": 2577,
+          "stock": 3
         },
         {
           "variantId": "v2",
-          "sku": "HM-AL-M",
-          "attributes": {
-            "size": "M"
-          },
-          "price": 1799,
-          "isAvailable": true
+          "sku": "HM_FLORAL_BLUE_A_M",
+          "color": "blue",
+          "size": "M",
+          "price": 2577,
+          "stock": 1
+        },
+        {
+          "variantId": "v3",
+          "sku": "HM_FLORAL_BLUE_A_L",
+          "color": "blue",
+          "size": "L",
+          "price": 2577,
+          "stock": 10
+        },
+        {
+          "variantId": "v4",
+          "sku": "HM_FLORAL_BLUE_A_XL",
+          "color": "blue",
+          "size": "XL",
+          "price": 3999,
+          "stock": 0
         }
       ],
-      "totalQuantity": 140,
-      "ratingAverage": 4.2,
-      "reviewCount": 260,
-      "viewCount": 29000,
-      "createdAt": "2025-01-05T10:00:00Z",
-      "updatedAt": "2025-01-16T10:00:00Z"
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2.8K",
+      "viewCount": 45800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
     },
     {
-      "id": "w0010",
+      "id": "w002",
+      "name": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+      "productSlug": "house-of-mira-floral-midi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_house_of_mira",
+      "brandName": "HOUSE OF MIRA",
+      "brandSlug": "house-of-mira",
+      "basePrice": 2577,
+      "currency": "INR",
+      "discountPercentage": 66,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
+      "productDetails": [
+        "Brown floral print A-line dress",
+        "Shoulder straps",
+        "Sleeveless, shoulder straps",
+        "Midi length in straight hem",
+        "Cotton fabric"
+      ],
+      "specifications": {
+        "Shape": "A-Line",
+        "Neck": "Shoulder Straps",
+        "Length": "Midi",
+        "Sleeve Length": "Sleeveless",
+        "Sleeve Styling": "Shoulder Straps",
+        "Knit or Woven": "Knitted and Woven",
+        "Hemline": "Straight",
+        "Transparency": "Opaque"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "brown",
+          "images": [
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714461.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714412.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714483.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714435.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714476.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714497.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713561.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713553.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713514.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713505.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713536.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-S",
+          "color": "brown",
+          "size": "S",
+          "price": 2577,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-M",
+          "color": "brown",
+          "size": "M",
+          "price": 2577,
+          "stock": 1
+        },
+        {
+          "variantId": "v3",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-L",
+          "color": "brown",
+          "size": "L",
+          "price": 2577,
+          "stock": 10
+        },
+        {
+          "variantId": "v4",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-XL",
+          "color": "brown",
+          "size": "XL",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-S",
+          "color": "blue",
+          "size": "S",
+          "price": 2999,
+          "stock": 5
+        },
+        {
+          "variantId": "v6",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-M",
+          "color": "blue",
+          "size": "M",
+          "price": 2499,
+          "stock": 3
+        },
+        {
+          "variantId": "v7",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-L",
+          "color": "blue",
+          "size": "L",
+          "price": 2499,
+          "stock": 0
+        },
+        {
+          "variantId": "v8",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-XL",
+          "color": "blue",
+          "size": "XL",
+          "price": 3999,
+          "stock": 3
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2K",
+      "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w003",
       "name": "Women Floral Empire Dress",
       "productSlug": "h&m-women-floral-empire-dress",
       "categoryId": "cat_women_westernwear",
@@ -289,38 +444,7 @@
       "isActive": true,
       "isFeatured": true,
       "tags": ["dress", "western", "floral", "empire", "women"],
-      "images": [
-        {
-          "url": "https://m.media-amazon.com/images/I/61L24awnI5L._SY741_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": true
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61BohCkM+GL._SY741_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61fIUv+NnqL._SY741_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61JL7s2IvHL._SX679_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/81iK-s4GF4L._SX679_.jpg",
-          "altText": "Women floral empire dress front view",
-          "isPrimary": false
-        },
-        {
-          "url": "https://m.media-amazon.com/images/I/61h1nuHR1IL._SY741_.jpg",
-          "altText": "Women floral empire dress side view",
-          "isPrimary": false
-        }
-      ],
+
       "productDetails": [
         "All-over floral print",
         "Sleeveless with shoulder straps",
@@ -345,30 +469,1191 @@
         "material": "Cotton",
         "care": "Machine Wash Cold"
       },
+      "colorVariants": [
+        {
+          "color": "yellow",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/61L24awnI5L._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61BohCkM+GL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61fIUv+NnqL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61JL7s2IvHL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/81iK-s4GF4L._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61h1nuHR1IL._SY741_.jpg",
+              "altText": "Women floral empire dress side view",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/71SiaxOfrxL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61VavrGbgXL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61OOkkz0iqL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/6110d2inryL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+
+            {
+              "url": "https://m.media-amazon.com/images/I/61h1nuHR1IL._SY741_.jpg",
+              "altText": "Women floral empire dress side view",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
       "variants": [
         {
           "variantId": "v1",
-          "sku": "HM-FL-EMP-S",
-          "attributes": {
-            "size": "S"
-          },
+          "sku": "HM-FL-EMP-YELLOW-S",
+          "color": "yellow",
+          "size": "S",
           "price": 2999,
-          "isAvailable": true
+          "stock": 10
         },
         {
           "variantId": "v2",
-          "sku": "HM-FL-EMP-M",
-          "attributes": {
-            "size": "M"
-          },
-          "price": 1999,
-          "isAvailable": true
+          "sku": "HM-FL-EMP-YELLOW-M",
+          "color": "yellow",
+          "size": "M",
+          "price": 2499,
+          "stock": 8
+        },
+        {
+          "variantId": "v3",
+          "sku": "HM-FL-EMP-BLUE-S",
+          "color": "blue",
+          "size": "S",
+          "price": 3499,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "HM-FL-EMP-BLUE-M",
+          "color": "blue",
+          "size": "M",
+          "price": 2999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "HM-FL-EMP-BLUE-L",
+          "color": "blue",
+          "size": "L",
+          "price": 2999,
+          "stock": 5
         }
       ],
       "totalQuantity": 85,
       "ratingAverage": 4.5,
       "reviewCount": 412,
       "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w004",
+      "name": "Bodycon Midi Dress",
+      "productSlug": "stylecast-bodycon-midi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_stylecast",
+      "brandName": "StyleCast",
+      "brandSlug": "stylecast",
+      "basePrice": 3999,
+      "currency": "INR",
+      "discountPercentage": 79,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "SOlid", "bodycon", "women"],
+
+      "productDetails": [
+        "Green solid bodycon dress",
+        "V-neck",
+        "Sleeveless, regular sleeves",
+        "Midi length in straight hem"
+      ],
+      "specifications": {
+        "Shape": "Bodycon",
+        "Neck": "V-Neck",
+        "Length": "Midi",
+        "Sleeve Length": "Sleeveless",
+        "Sleeve Styling": "Regular Sleeves",
+        "Knit or Women": "Knitted",
+        "Hemline": "Straight",
+        "Transparency": "Opaque"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "wine",
+          "images": [
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/8Su0/678a6ffd0431850e0da5380f/-473Wx593H-701065607-purple-MODEL2.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/sdgn/678a6ffd0431850e0da53813/-473Wx593H-701065607-purple-MODEL5.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/OwDT/678a6ffd0431850e0da5380a/-473Wx593H-701065607-purple-MODEL3.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/QVeu/678a6ffd0431850e0da53810/-473Wx593H-701065607-purple-MODEL6.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "red",
+          "images": [
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/G6QR/678a70460431850e0da54147/-473Wx593H-701065607-red-MODEL2.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/JdAW/678a70460431850e0da54148/-473Wx593H-701065607-red-MODEL7.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/3Rdq/678a70460431850e0da54149/-473Wx593H-701065607-red-MODEL3.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/9wZI/678a70460431850e0da5414f/-473Wx593H-701065607-red-MODEL8.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "STYLECAST-BO-WINE-S",
+          "color": "wine",
+          "size": "S",
+          "price": 1899,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "STYLECAST-BO-WINE-M",
+          "color": "wine",
+          "size": "M",
+          "price": 1899,
+          "stock": 0
+        },
+        {
+          "variantId": "v3",
+          "sku": "STYLECAST-BO-RED-S",
+          "color": "red",
+          "size": "S",
+          "price": 1899,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "STYLECAST-BO-RED-M",
+          "color": "red",
+          "size": "M",
+          "price": 1899,
+          "stock": 10
+        },
+        {
+          "variantId": "v5",
+          "sku": "STYLECAST-BO-RED-L",
+          "color": "red",
+          "size": "L",
+          "price": 1899,
+          "stock": 0
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4.8,
+      "reviewCount": "2.2K",
+      "viewCount": 35800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w005",
+      "name": "One Piece Maxi Dress (L-32-34)",
+      "productSlug": "litzo-one-piece-maxi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_litzo",
+      "brandName": "LITZO",
+      "brandSlug": "litzo",
+      "basePrice": 3999,
+      "currency": "INR",
+      "discountPercentage": 79,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
+      "productDetails": [
+        "All-over floral print",
+        "Sleeveless with shoulder straps",
+        "Bodycon Dress",
+        "Open Front Coat Two Piece 2 Piece (dress with Coat set)"
+      ],
+      "specifications": {
+        "Shape": "Bodycon",
+        "Neck": "Shoulder Straps",
+        "Length": "Knee Length",
+        "Sleeve Length": "Sleeveless",
+        "Fabric": "Cotton",
+        "Hemline": "Straight",
+        "Occasion": "Casual",
+        "Fit": "Comfort Fit",
+        "Transparency": "Opaque",
+        "Knit or Woven": "Knitted"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "pink",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/713gJ+YKQ4L._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61FJHkb0ARL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61YkClt30vL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/71yXSfra5rL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/71lW+uSvApL._SX679_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "black",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/71Gn7leYUfL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/719faZWP8TL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61SdIgU7eLL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+
+            {
+              "url": "https://m.media-amazon.com/images/I/71lW+uSvApL._SX679_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "LITZO-BO-PINK-S",
+          "color": "pink",
+          "size": "S",
+          "price": 3999,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "LITZO-BO-PINK-M",
+          "color": "pink",
+          "size": "M",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v3",
+          "sku": "LITZO-BO-PINK-S",
+          "color": "pink",
+          "size": "S",
+          "price": 3999,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "LITZO-BO-BLACK-S",
+          "color": "black",
+          "size": "S",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "LITZO-BO-BLACK-M",
+          "color": "black",
+          "size": "M",
+          "price": 2999,
+          "stock": 5
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2K",
+      "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w006",
+      "name": "Bodycon Midi Dress",
+      "productSlug": "stylecast-bodycon-midi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_stylecast",
+      "brandName": "StyleCast",
+      "brandSlug": "stylecast",
+      "basePrice": 3999,
+      "currency": "INR",
+      "discountPercentage": 79,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "SOlid", "bodycon", "women"],
+
+      "productDetails": [
+        "Green solid bodycon dress",
+        "V-neck",
+        "Sleeveless, regular sleeves",
+        "Midi length in straight hem"
+      ],
+      "specifications": {
+        "Shape": "Bodycon",
+        "Neck": "V-Neck",
+        "Length": "Midi",
+        "Sleeve Length": "Sleeveless",
+        "Sleeve Styling": "Regular Sleeves",
+        "Knit or Women": "Knitted",
+        "Hemline": "Straight",
+        "Transparency": "Opaque"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "red",
+          "images": [
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/G6QR/678a70460431850e0da54147/-473Wx593H-701065607-red-MODEL2.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/JdAW/678a70460431850e0da54148/-473Wx593H-701065607-red-MODEL7.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/3Rdq/678a70460431850e0da54149/-473Wx593H-701065607-red-MODEL3.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/9wZI/678a70460431850e0da5414f/-473Wx593H-701065607-red-MODEL8.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "wine",
+          "images": [
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/8Su0/678a6ffd0431850e0da5380f/-473Wx593H-701065607-purple-MODEL2.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/sdgn/678a6ffd0431850e0da53813/-473Wx593H-701065607-purple-MODEL5.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/OwDT/678a6ffd0431850e0da5380a/-473Wx593H-701065607-purple-MODEL3.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://assets-jiocdn.ajio.com/medias/sys_master/root/20250117/QVeu/678a6ffd0431850e0da53810/-473Wx593H-701065607-purple-MODEL6.jpg",
+              "altText": "Women Western Wear Bodycon Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "STYLECAST-BO-WINE-S",
+          "color": "wine",
+          "size": "S",
+          "price": 1899,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "STYLECAST-BO-WINE-M",
+          "color": "wine",
+          "size": "M",
+          "price": 1899,
+          "stock": 0
+        },
+        {
+          "variantId": "v3",
+          "sku": "STYLECAST-BO-RED-S",
+          "color": "red",
+          "size": "S",
+          "price": 1899,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "STYLECAST-BO-RED-M",
+          "color": "red",
+          "size": "M",
+          "price": 1899,
+          "stock": 10
+        },
+        {
+          "variantId": "v5",
+          "sku": "STYLECAST-BO-RED-L",
+          "color": "red",
+          "size": "L",
+          "price": 1899,
+          "stock": 0
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4.8,
+      "reviewCount": "2.2K",
+      "viewCount": 35800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w007",
+      "name": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+      "productSlug": "house-of-mira-floral-midi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_house_of_mira",
+      "brandName": "HOUSE OF MIRA",
+      "brandSlug": "house-of-mira",
+      "basePrice": 2577,
+      "currency": "INR",
+      "discountPercentage": 66,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
+      "productDetails": [
+        "Brown floral print A-line dress",
+        "Shoulder straps",
+        "Sleeveless, shoulder straps",
+        "Midi length in straight hem",
+        "Cotton fabric"
+      ],
+      "specifications": {
+        "Shape": "A-Line",
+        "Neck": "Shoulder Straps",
+        "Length": "Midi",
+        "Sleeve Length": "Sleeveless",
+        "Sleeve Styling": "Shoulder Straps",
+        "Knit or Woven": "Knitted and Woven",
+        "Hemline": "Straight",
+        "Transparency": "Opaque"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713561.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713553.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713514.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713505.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034466_437Wx649H_202501131713536.jpeg",
+              "altText": "Women Floral Printed Shoulder Sleeves A-line Midi Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "brown",
+          "images": [
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714461.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714412.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714483.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714435.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714476.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://img.tatacliq.com/images/i22//437Wx649H/MP000000025034479_437Wx649H_202501131714497.jpeg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-S",
+          "color": "brown",
+          "size": "S",
+          "price": 2577,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-M",
+          "color": "brown",
+          "size": "M",
+          "price": 2577,
+          "stock": 1
+        },
+        {
+          "variantId": "v3",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-L",
+          "color": "brown",
+          "size": "L",
+          "price": 2577,
+          "stock": 10
+        },
+        {
+          "variantId": "v4",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-XL",
+          "color": "brown",
+          "size": "XL",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BROWN-S",
+          "color": "blue",
+          "size": "S",
+          "price": 2999,
+          "stock": 5
+        },
+        {
+          "variantId": "v6",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-M",
+          "color": "blue",
+          "size": "M",
+          "price": 2499,
+          "stock": 3
+        },
+        {
+          "variantId": "v7",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-L",
+          "color": "blue",
+          "size": "L",
+          "price": 2499,
+          "stock": 0
+        },
+        {
+          "variantId": "v8",
+          "sku": "HOUSE_OF_MIRA-FLORAL-A-LINE-MIDI-BLUE-XL",
+          "color": "blue",
+          "size": "XL",
+          "price": 3999,
+          "stock": 3
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2K",
+      "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w008",
+      "name": "Women Floral Empire Dress",
+      "productSlug": "h&m-women-floral-empire-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_zara",
+      "brandName": "Zara",
+      "brandSlug": "zara",
+      "basePrice": 3499,
+      "currency": "INR",
+      "discountPercentage": 30,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "empire", "women"],
+
+      "productDetails": [
+        "All-over floral print",
+        "Sleeveless with shoulder straps",
+        "Empire waist for a flattering fit",
+        "Midi length with flared hem"
+      ],
+      "specifications": {
+        "Shape": "Empire",
+        "Neck": "Shoulder Straps",
+        "Length": "Midi",
+        "Sleeve Length": "Sleeveless",
+        "Fabric": "Cotton",
+        "Hemline": "Flared",
+        "Occasion": "Casual",
+        "Fit": "Comfort Fit"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'7\"",
+        "modelSize": "M"
+      },
+      "materialAndCare": {
+        "material": "Cotton",
+        "care": "Machine Wash Cold"
+      },
+      "colorVariants": [
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/71SiaxOfrxL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61VavrGbgXL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61OOkkz0iqL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/6110d2inryL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+
+            {
+              "url": "https://m.media-amazon.com/images/I/61h1nuHR1IL._SY741_.jpg",
+              "altText": "Women floral empire dress side view",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "yellow",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/61L24awnI5L._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61BohCkM+GL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61fIUv+NnqL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61JL7s2IvHL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/81iK-s4GF4L._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61h1nuHR1IL._SY741_.jpg",
+              "altText": "Women floral empire dress side view",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "HM-FL-EMP-YELLOW-S",
+          "color": "yellow",
+          "size": "S",
+          "price": 2999,
+          "stock": 10
+        },
+        {
+          "variantId": "v2",
+          "sku": "HM-FL-EMP-YELLOW-M",
+          "color": "yellow",
+          "size": "M",
+          "price": 2499,
+          "stock": 8
+        },
+        {
+          "variantId": "v3",
+          "sku": "HM-FL-EMP-BLUE-S",
+          "color": "blue",
+          "size": "S",
+          "price": 3499,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "HM-FL-EMP-BLUE-M",
+          "color": "blue",
+          "size": "M",
+          "price": 2999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "HM-FL-EMP-BLUE-L",
+          "color": "blue",
+          "size": "L",
+          "price": 2999,
+          "stock": 5
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4.5,
+      "reviewCount": 412,
+      "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w009",
+      "name": "One Piece Maxi Dress (L-32-34)",
+      "productSlug": "litzo-one-piece-maxi-dress",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_litzo",
+      "brandName": "LITZO",
+      "brandSlug": "litzo",
+      "basePrice": 3999,
+      "currency": "INR",
+      "discountPercentage": 79,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
+      "productDetails": [
+        "All-over floral print",
+        "Sleeveless with shoulder straps",
+        "Bodycon Dress",
+        "Open Front Coat Two Piece 2 Piece (dress with Coat set)"
+      ],
+      "specifications": {
+        "Shape": "Bodycon",
+        "Neck": "Shoulder Straps",
+        "Length": "Knee Length",
+        "Sleeve Length": "Sleeveless",
+        "Fabric": "Cotton",
+        "Hemline": "Straight",
+        "Occasion": "Casual",
+        "Fit": "Comfort Fit",
+        "Transparency": "Opaque",
+        "Knit or Woven": "Knitted"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "black",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/71Gn7leYUfL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/719faZWP8TL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61SdIgU7eLL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+
+            {
+              "url": "https://m.media-amazon.com/images/I/71lW+uSvApL._SX679_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        },
+        {
+          "color": "pink",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/713gJ+YKQ4L._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61FJHkb0ARL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61YkClt30vL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/71yXSfra5rL._SY741_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/71lW+uSvApL._SX679_.jpg",
+              "altText": "One Piece Maxi Dress",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "LITZO-BO-PINK-S",
+          "color": "pink",
+          "size": "S",
+          "price": 3999,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "LITZO-BO-PINK-M",
+          "color": "pink",
+          "size": "M",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v3",
+          "sku": "LITZO-BO-PINK-S",
+          "color": "pink",
+          "size": "S",
+          "price": 3999,
+          "stock": 6
+        },
+        {
+          "variantId": "v4",
+          "sku": "LITZO-BO-BLACK-S",
+          "color": "black",
+          "size": "S",
+          "price": 3999,
+          "stock": 0
+        },
+        {
+          "variantId": "v5",
+          "sku": "LITZO-BO-BLACK-M",
+          "color": "black",
+          "size": "M",
+          "price": 2999,
+          "stock": 5
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2K",
+      "viewCount": 37800,
+      "createdAt": "2025-01-12T09:30:00Z",
+      "updatedAt": "2025-01-22T11:15:00Z"
+    },
+    {
+      "id": "w0010",
+      "name": "Women A-Line Dress",
+      "productSlug": "h&m-women-a-line-dress-1",
+      "categoryId": "cat_women_westernwear",
+      "subcategoryId": "subcat_dresses",
+      "categorySlug": "westernwear",
+      "subCategorySlug": "dresses",
+      "categoryName": "Westernwear",
+      "subCategoryName": "Dresses",
+      "brandId": "brand_hm",
+      "brandName": "H&M",
+      "brandSlug": "h-m",
+      "basePrice": 2999,
+      "currency": "INR",
+      "discountPercentage": 66,
+      "isActive": true,
+      "isFeatured": true,
+      "tags": ["dress", "western", "floral", "bodycon", "women"],
+
+      "productDetails": [
+        "White and blue floral print a-line dress",
+        "Sweetheart neck",
+        "Short, puff sleeve",
+        "Gathered or pleated detail",
+        "Midi length in straight hem",
+        "Crepe fabric",
+        "Concealed zip closure",
+        "High-Slit"
+      ],
+      "specifications": {
+        "Shape": "A-Line",
+        "Neck": "Sweetheart Neck",
+        "Length": "Midi",
+        "Sleeve Length": "Short Sleeves",
+        "Sleeve Styling": "Puff Sleeves",
+        "Knit or Woven": "Woven",
+        "Hemline": "Straight",
+        "Transparency": "Opaque"
+      },
+      "sizeAndFit": {
+        "modelHeight": "5'8\"",
+        "modelSize": "S"
+      },
+      "materialAndCare": {
+        "material": "Polycrepe",
+        "care": "Machine Wash"
+      },
+      "colorVariants": [
+        {
+          "color": "blue",
+          "images": [
+            {
+              "url": "https://m.media-amazon.com/images/I/61dWOhkzKKL._SY879_.jpg",
+              "altText": "Women A-Line dress front view",
+              "isPrimary": true
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/619mG3mFkgL._SY741_.jpg",
+              "altText": "Women A-Line dress back view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/619tc7IXPTL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61gEakFONiL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/91m2+1zpoqL._SX679_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/61SEbDxR-mL._SY741_.jpg",
+              "altText": "Women floral empire dress front view",
+              "isPrimary": false
+            }
+          ]
+        }
+      ],
+
+      "variants": [
+        {
+          "variantId": "v1",
+          "sku": "HM_FLORAL_BLUE_A_S",
+          "color": "blue",
+          "size": "S",
+          "price": 2577,
+          "stock": 3
+        },
+        {
+          "variantId": "v2",
+          "sku": "HM_FLORAL_BLUE_A_M",
+          "color": "blue",
+          "size": "M",
+          "price": 2577,
+          "stock": 1
+        },
+        {
+          "variantId": "v3",
+          "sku": "HM_FLORAL_BLUE_A_L",
+          "color": "blue",
+          "size": "L",
+          "price": 2577,
+          "stock": 10
+        },
+        {
+          "variantId": "v4",
+          "sku": "HM_FLORAL_BLUE_A_XL",
+          "color": "blue",
+          "size": "XL",
+          "price": 3999,
+          "stock": 0
+        }
+      ],
+      "totalQuantity": 85,
+      "ratingAverage": 4,
+      "reviewCount": "2.8K",
+      "viewCount": 45800,
       "createdAt": "2025-01-12T09:30:00Z",
       "updatedAt": "2025-01-22T11:15:00Z"
     }

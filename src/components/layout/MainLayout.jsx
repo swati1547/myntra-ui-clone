@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../../components/layout/Navbar";
 import BreadCrumb from "../../components/common/BreadCrumb";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { useBreadcrumbContext } from "../../context/BreadcrumbContext";
 // import Crash from "../common/Crash";
 
 export default function MainLayout() {
-  const { items } = useBreadcrumbContext();
+  const { items, setItems } = useBreadcrumbContext();
+  const location = useLocation();
+
+  useEffect(() => {
+    setItems([]); // reset on every route change
+  }, [location.pathname]);
 
   return (
     <div className="app-layout">

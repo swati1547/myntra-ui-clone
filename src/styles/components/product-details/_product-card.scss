@@ -2,10 +2,10 @@
 
 .product-card {
   background: #fff;
-  border-radius: rem(4);
   overflow: hidden;
   transition: 0.25s ease;
   cursor: pointer;
+  width: rem(210);
 
   &__image {
     width: 100%;
@@ -19,39 +19,72 @@
   }
 
   &__brand {
-    margin: $space-2 $space-3 rem(2);
-    font-size: rem(14);
-    font-weight: 600;
+    margin: 0 $space-2 0;
+    font-size: $font-base;
+    font-weight: $fw-semi-bold;
     color: $text-primary;
-    text-transform: uppercase;
   }
 
   &__name {
-    margin: 0 $space-3 $space-2;
-    font-size: rem(13);
+    margin: 0 $space-2 0;
+    font-size: $font-md;
     color: $text-muted;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
+  &__priseSet {
+    margin: 0 $space-2 0;
+  }
+
   &__price {
-    margin-left: $space-3;
-    font-size: rem(14);
-    font-weight: 600;
+    font-size: $font-md;
+    font-weight: $fw-semi-bold;
     color: $text-primary;
   }
 
   &__mrp {
-    font-size: rem(12);
+    font-size: $font-xs;
     color: #7e818c;
     margin-left: $space-2;
   }
 
   &__discount {
-    font-size: rem(12);
+    font-size: $font-xs;
     color: #ff905a;
-    font-weight: 500;
+    font-weight: $fw-medium;
     margin-left: $space-2;
   }
+}
+.product-card__imageWrapper {
+  position: relative;
+}
+
+.product-card__rating {
+  position: absolute;
+  bottom: 12px;
+  left: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: $space-1;
+
+  padding: rem(2) rem(6);
+
+  background: #fff;
+  border-radius: 3px;
+  font-size: $font-xs;
+  font-weight: $fw-semi-bold;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card__rating-star {
+  color: #14958f;
+  font-size: $font-xs;
+}
+
+.product-card__rating-count {
+  font-weight: $fw-medium;
 }

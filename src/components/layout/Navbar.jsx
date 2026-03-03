@@ -10,6 +10,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 
 import departments from "../../data/departments";
 import { useGetAllCategoriesbyDeptQuery } from "../../store/api/categoryApi";
+import logo from "../../assets/images/logo.png";
 
 export default function Navbar() {
   const [activeMenu, setActiveMenu] = useState("");
@@ -34,11 +35,7 @@ export default function Navbar() {
 
       <nav className="navbar">
         <Box className="navbar__left">
-          <img
-            className="navbar__logo"
-            src="src/assets/images/logo.png"
-            alt="logo"
-          />
+          <img className="navbar__logo" src={logo} alt="logo" />
         </Box>
 
         <NavigationMenu.Root
@@ -109,10 +106,12 @@ export default function Navbar() {
 
         <Box className="navbar__right">
           <div className="navbar__search">
-            <SearchOutlinedIcon sx={{ color: "#696e79", fontSize: "20px" }} />
+            <SearchOutlinedIcon
+              sx={{ color: "#696e79", fontSize: "1.25rem" }}
+            />
             <InputBase
               placeholder="Search for products, brands and more"
-              sx={{ fontSize: "14px", width: "100%" }}
+              sx={{ fontSize: "0.875rem", width: "100%" }}
             />
           </div>
         </Box>
@@ -122,7 +121,7 @@ export default function Navbar() {
             <PermIdentityIcon />
             <p>Profile</p>
           </Link>
-          <Link className="navbar__actions__action">
+          <Link to="wishlist" className="navbar__actions__action">
             <FavoriteBorderIcon />
             <p>Wishlist</p>
           </Link>

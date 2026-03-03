@@ -9,16 +9,32 @@ $primary-pink-hover: #ff698c;
 $text-dark: #282c3f;
 $text-light: #64656a;
 
-// FONT
-$font-base: 0.875rem; // 14px (same as now)
-$fw-normal: 400;
-$fw-medium: 500;
-$font-btn: func.rem(15);
+// FONT SIZE
+$font-xxs: 0.655rem; //10.5px
+$font-xs: 0.75rem; //12px
+$font-sm: 0.812rem; //13px
+$font-md: 0.875rem; //14px
+$font-base: 1rem; //16px
+$font-lg: 1.125rem; //18px
+$font-xl: 1.25rem; //20px
+$font-xxl: 1.5rem; //24px
 
-// SPACING SCALE (IMPORTANT)
-$space-1: 0.25rem; // ✅ FIX scalable
-$space-2: 0.5rem;
-$space-3: 0.75rem;
-$space-4: 1rem;
-$space-5: 1.5rem;
-$space-6: 2rem;
+// FONT WEIGHTS
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+$fw-extra-bold: 900;
+
+// SPACING SCALE
+$space-0: 0;
+$space-1: 0.25rem; // 4px
+$space-2: 0.5rem; // 8px
+$space-3: 0.75rem; // 12px
+$space-4: 1rem; // 16px
+$space-5: 1.5rem; // 24px
+$space-6: 2rem; // 32px
+$space-7: 2.5rem; // 40px
+$space-8: 3rem; // 48px
+$space-9: 4rem; // 64px
+$space-10: 5rem; // 80px

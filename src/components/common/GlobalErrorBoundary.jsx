@@ -52,8 +52,8 @@ const styles = {
     textAlign: "center",
   },
   button: {
-    padding: "10px 16px",
-    marginTop: "12px",
+    padding: "0.625rem 1rem",
+    marginTop: "0.75",
     cursor: "pointer",
   },
 };

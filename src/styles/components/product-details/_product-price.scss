@@ -2,27 +2,27 @@
 
 .price {
   &__current {
-    font-size: rem(24);
-    font-weight: 700;
+    font-size: $font-xxl;
+    font-weight: $fw-bold;
     color: #282c3f;
     margin-right: rem(10);
   }
   &__before {
-    font-size: rem(20);
-    font-weight: 400;
+    font-size: $font-xl;
+    font-weight: $fw-regular;
     color: #64656a;
   }
   &__discount {
-    font-size: rem(20);
-    font-weight: 700;
+    font-size: $font-xl;
+    font-weight: $fw-bold;
     letter-spacing: 0.5px;
     color: #ff905a;
   }
 
   &__tax {
-    margin: rem(4) 0;
-    font-size: rem(14);
-    font-weight: 700;
+    margin: $space-1 0;
+    font-size: $font-md;
+    font-weight: $fw-bold;
     color: #03a685;
   }
 }

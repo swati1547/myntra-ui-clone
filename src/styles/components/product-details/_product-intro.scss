@@ -5,11 +5,11 @@
 
   &__title {
     margin: 0;
-    font-size: rem(24);
-    font-weight: 700;
+    font-size: $font-xxl;
+    font-weight: $fw-bold;
 
     @include respond(mobile) {
-      font-size: rem(20);
+      font-size: $font-xl;
     }
   }
 
@@ -30,8 +30,8 @@
   }
 
   &__rating-value {
-    font-weight: 700;
-    font-size: rem(16);
+    font-weight: $fw-bold;
+    font-size: $font-base;
   }
 
   &__rating-icon {
@@ -47,7 +47,7 @@
 
   &__rating-text {
     color: $text-muted;
-    font-size: rem(16);
-    font-weight: 400;
+    font-size: $font-base;
+    font-weight: $fw-regular;
   }
 }

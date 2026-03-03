@@ -3,6 +3,7 @@ import MainLayout from "./components/layout/MainLayout";
 import ProductOverview from "./components/product-details/ProductOverview";
 import ProductListingPage from "./Pages/ProductListingPage";
 import CategoryLandingPage from "./pages/CategoryPage";
+import WishlistPage from "./pages/WishlistPage";
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
         path: "product/:productSlug/:productId",
         element: <ProductOverview />,
       },
+      {
+        path: "wishlist",
+        element: <WishlistPage />,
+      },
+      //////////////////
       {
         path: ":categorySlug",
         element: <CategoryLandingPage />, // or ProductListingPage reuse

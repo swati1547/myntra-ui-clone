@@ -3,14 +3,5 @@
 .product-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(rem(220), 1fr));
-  gap: $space-5; // 24px
-
-  @include respond(tablet) {
-    grid-template-columns: repeat(auto-fill, minmax(rem(180), 1fr));
-  }
-
-  @include respond(mobile) {
-    grid-template-columns: repeat(2, 1fr);
-    gap: $space-3;
-  }
+  gap: $space-5;
 }

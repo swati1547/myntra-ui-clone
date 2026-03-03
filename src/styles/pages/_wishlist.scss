@@ -1,0 +1,21 @@
+@use "../abstracts" as *;
+
+.wishlist {
+  padding: rem(32) rem(80);
+
+  &__heading {
+    font-size: $font-lg;
+  }
+
+  &__heading-subhead {
+    margin-left: $space-2;
+    font-weight: $fw-regular;
+  }
+
+  &__layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(rem(220), 1fr));
+    gap: $space-6;
+    padding: $space-4 0;
+  }
+}

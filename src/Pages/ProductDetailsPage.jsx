@@ -9,7 +9,11 @@ import SellOutlinedIcon from "@mui/icons-material/SellOutlined";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 import HotelClassOutlinedIcon from "@mui/icons-material/HotelClassOutlined";
 
-export default function ProductDetailsPage({ product }) {
+export default function ProductDetailsPage({
+  product,
+  selectedColor,
+  setSelectedColor,
+}) {
   const [selectedVariant, setSelectedVariant] = useState(null);
 
   return (
@@ -22,6 +26,8 @@ export default function ProductDetailsPage({ product }) {
         product={product}
         selectedVariant={selectedVariant}
         onSelect={setSelectedVariant}
+        selectedColor={selectedColor}
+        setSelectedColor={setSelectedColor}
       />
 
       <hr className="hr" />

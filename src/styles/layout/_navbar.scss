@@ -63,7 +63,7 @@
   /* SEARCH */
   &__search {
     width: rem(480);
-    padding: rem(5) rem(12);
+    padding: $space-1 rem(12);
     background-color: #f5f5f6;
     border-radius: rem(4);
     display: flex;
@@ -85,8 +85,8 @@
     gap: rem(16);
 
     &__action {
-      font-size: rem(11);
-      font-weight: 900;
+      font-size: $font-xxs;
+      font-weight: $fw-extra-bold;
       color: $text-primary;
       text-decoration: none;
       cursor: pointer;
@@ -103,7 +103,7 @@
       }
 
       @include respond(tablet) {
-        font-size: rem(10);
+        font-size: $font-xxs;
       }
     }
   }
@@ -134,8 +134,8 @@
   &__trigger {
     height: 100%;
     position: relative;
-    font-size: rem(12.4);
-    font-weight: 600;
+    font-size: $font-xs;
+    font-weight: $fw-semi-bold;
     color: $text-primary;
     background: none;
     border: none;
@@ -203,8 +203,8 @@
 }
 
 .dropdown-title {
-  font-size: rem(12.5);
-  font-weight: 700;
+  font-size: $font-xs;
+  font-weight: $fw-bold;
   color: $text-primary;
   margin-bottom: rem(10);
   text-transform: uppercase;
@@ -218,13 +218,13 @@
 }
 
 .dropdown-sublist li {
-  font-size: rem(13.2);
+  font-size: $font-sm;
   color: #696e79;
   cursor: pointer;
 
   &:hover {
     color: #ff3f6c;
-    font-weight: 600;
+    font-weight: $fw-semi-bold;
   }
 }
 

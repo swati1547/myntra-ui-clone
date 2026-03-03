@@ -1,17 +1,17 @@
 @use "../../abstracts/" as *;
 
 .details {
-  font-size: rem(16);
+  font-size: $font-base;
 
   &__text {
     margin: $space-1 0;
-    font-weight: 400;
+    font-weight: $fw-regular;
   }
 
   &__title {
-    font-weight: 700;
+    font-weight: $fw-bold;
     margin: $space-3 0 $space-2;
-    font-size: rem(16);
+    font-size: $font-base;
   }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .specKey {
-  font-size: rem(12);
+  font-size: $font-xs;
   color: #7e818c;
   margin: 0;
 }
@@ -39,7 +39,7 @@
 .specValue {
   color: #111;
   margin: $space-1 0 $space-2;
-  font-size: rem(14.4);
+  font-size: $font-md;
 }
 
 .hr {

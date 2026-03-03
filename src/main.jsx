@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { ThemeProvider } from "@emotion/react";
 import { BreadcrumbProvider } from "./context/BreadcrumbContext.jsx";
 import theme from "./styles/theme.js";
-import store from "./Store/store.js";
+import store from "./store/store.js";
 import App from "./App.jsx";
 import "./styles/main.scss";
 // import "./index.css";

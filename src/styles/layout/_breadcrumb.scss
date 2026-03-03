@@ -15,14 +15,14 @@
   .MuiBreadcrumbs-separator {
     margin: 0 rem(6);
     color: #94969f;
-    font-size: rem(12);
+    font-size: $font-xs;
   }
 
   a {
     text-decoration: none;
     color: #9e9fa3;
-    font-size: rem(16);
-    font-weight: 400;
+    font-size: $font-base;
+    font-weight: $fw-regular;
     letter-spacing: 0.3px;
     cursor: pointer;
     transition: color 0.2s ease;
@@ -35,7 +35,7 @@
 
   .MuiTypography-root {
     color: #3d3d3d;
-    font-size: rem(13.5);
+    font-size: $font-sm;
     letter-spacing: 0.3px;
     cursor: default;
   }

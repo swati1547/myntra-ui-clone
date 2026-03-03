@@ -8,14 +8,14 @@
   }
 
   &__title {
-    font-weight: 700;
-    font-size: rem(15);
+    font-weight: $fw-bold;
+    font-size: $font-base;
     margin: rem(15) 0 0 0;
   }
 
   &__label {
-    font-size: rem(13);
-    font-weight: 400;
+    font-size: $font-sm;
+    font-weight: $fw-regular;
     margin: rem(6) 0 0 0;
   }
 }

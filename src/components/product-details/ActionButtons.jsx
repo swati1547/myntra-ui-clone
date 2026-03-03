@@ -1,18 +1,29 @@
-import React from "react";
+import { useDispatch } from "react-redux";
+import { addToWishlist } from "../../store/slices/wishlist";
 
-import ShoppingBagIcon from "@mui/icons-material/ShoppingBag";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+export default function ActionButtons({ productId, selectedColor }) {
+  const dispatch = useDispatch();
 
-export default function ActionButtons() {
+  const handleWishlist = () => {
+    dispatch(
+      addToWishlist({
+        productId,
+        selectedColor,
+      }),
+    );
+  };
+
   return (
     <div className="button">
       <button type="button" className="button__style button__bag">
-        <ShoppingBagIcon className="button__icon" />
         Add to bag
       </button>
 
-      <button type="button" className="button__style button__wishlist">
-        <FavoriteBorderIcon className="button__icon" />
+      <button
+        type="button"
+        className="button__style button__wishlist"
+        onClick={handleWishlist}
+      >
         Wishlist
       </button>
     </div>

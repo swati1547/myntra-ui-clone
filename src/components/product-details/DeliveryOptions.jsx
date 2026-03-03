@@ -11,14 +11,14 @@ export default function DeliveryOptions() {
     <Box className="delivery">
       <div className="delivery__address">
         <span>400708</span>
-        <CheckCircleIcon sx={{ fontSize: "18px", color: "#1ec471ca" }} />
+        <CheckCircleIcon sx={{ fontSize: "1.125rem", color: "#1ec471ca" }} />
         <p className="delivery__address_changebtn">Change</p>
       </div>
 
       <div className="delivery__feature">
         <LocalShippingOutlinedIcon
           sx={{
-            fontSize: "32px",
+            fontSize: "2rem",
             color: "#999b9eca",
           }}
         />
@@ -26,19 +26,19 @@ export default function DeliveryOptions() {
       </div>
       <div className="delivery__feature">
         <MobileScreenShareOutlinedIcon
-          sx={{ fontSize: "32px", color: "#999b9eca" }}
+          sx={{ fontSize: "2rem", color: "#999b9eca" }}
         />
         <p className="delivery__text">Pay on delivery available</p>
       </div>
       <div className="delivery__feature">
-        <AutorenewOutlinedIcon sx={{ fontSize: "32px", color: "#999b9eca" }} />
+        <AutorenewOutlinedIcon sx={{ fontSize: "2rem", color: "#999b9eca" }} />
         <p className="delivery__text">
           Easy 14 days return & exchange available
         </p>
         <div className="delivery__info">
           <p className="delivery__info_text">MORE INFO</p>
           <ChevronRightOutlinedIcon
-            sx={{ fontSize: "18px", color: "#ff3e6c" }}
+            sx={{ fontSize: "1.125rem", color: "#ff3e6c" }}
           />
         </div>
       </div>

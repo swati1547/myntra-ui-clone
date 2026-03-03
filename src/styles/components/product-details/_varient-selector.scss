@@ -9,7 +9,7 @@
     display: flex;
     gap: rem(12.8);
     flex-wrap: wrap; // important for mobile
-    margin: rem(19.2) 0 rem(32);
+    margin: rem(19.2) 0 rem(16);
   }
 
   &__circle {
@@ -48,12 +48,18 @@
   }
 
   &__size {
-    font-weight: 700;
-    font-size: rem(14.4);
+    font-weight: $fw-bold;
+    font-size: $font-md;
   }
 
   &__price {
-    font-size: rem(12);
-    margin-top: rem(3.2);
+    font-size: $font-xs;
+    margin-top: $space-1;
   }
+}
+
+.variant__color-img {
+  width: rem(55);
+  height: rem(75);
+  object-fit: cover;
 }

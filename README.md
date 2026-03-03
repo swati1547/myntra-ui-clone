@@ -1,16 +1,83 @@
-# React + Vite
+# Myntra UI Clone (In Progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scalable e-commerce frontend inspired by Myntra, built using React with a strong focus on clean architecture, reusable components, and maintainable styling systems.
 
-Currently, two official plugins are available:
+This project emphasizes real-world frontend engineering practices over simple UI replication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Functional Components + Hooks)
+- JavaScript (ES6+)
+- SCSS (Modular & Scalable Architecture)
+- Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Engineering Focus
+
+This project follows an architecture-first approach:
+
+- Modular and scalable folder structure
+- Global SCSS architecture with tokens, mixins, and structured styling layers
+- Clean component abstraction and reusability
+- Separation of concerns (UI, layout, styles)
+- Future-ready project organization
+
+---
+
+## Current Features
+
+- Navigation bar
+- Product listing grid
+- Product overview pages
+- Reusable UI components
+- Structured SCSS architecture
+- Scalable styling system
+
+_More features are actively being developed._
+
+---
+
+## Folder Structure Philosophy
+
+The folder structure is designed to support long-term scalability and feature expansion, following real-world frontend architecture patterns rather than flat project organization.
+
+---
+
+## Screenshots
+
+![Navbar](./screenshots/navbar.png)
+![Product Grid](./screenshots/products_grid.png)
+![Product Overview](./screenshots/product_overview.png)
+![Product Overview 2](./screenshots/product_overview2.png)
+![Product Details](./screenshots/product_details.png)
+![Wishlist](./screenshots/wishlist.png)
+
+---
+
+## Run Locally
+
+```bash
+git clone https://github.com/swati1547/myntra-ui-clone
+cd myntra-ui-clone
+npm install
+npm run dev
+```
+
+---
+
+## Project Status
+
+🚧 Actively in progress
+Enhancements and architectural refinements are continuously being added.
+
+---
+
+## Author
+
+Swati Garje
+React Developer focused on scalable frontend architecture
+
+GitHub: https://github.com/swati1547

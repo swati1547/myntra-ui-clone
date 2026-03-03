@@ -14,8 +14,8 @@
 @mixin heading-light {
   margin: 0;
   color: vars.$text-muted;
-  font-weight: vars.$fw-normal;
-  font-size: func.rem(20);
+  font-weight: vars.$fw-regular;
+  font-size: vars.$font-xl;
 }
 
 // Horizontal Line
@@ -25,7 +25,6 @@
   margin: vars.$space-2 0;
 }
 
-// Flex utilities (NEW - very useful)
 @mixin flex-center {
   display: flex;
   align-items: center;
@@ -39,23 +38,23 @@
 }
 
 @mixin section-heading {
-  font-size: func.rem(15);
-  font-weight: 700;
+  font-size: vars.$font-base;
+  font-weight: vars.$fw-bold;
   text-transform: uppercase;
   display: flex;
   align-items: center;
   gap: vars.$space-2;
 }
 @mixin section-heading-secondary {
-  font-weight: 700;
-  font-size: func.rem(16);
+  font-weight: vars.$fw-bold;
+  font-size: vars.$font-base;
   text-transform: uppercase;
 }
 
 @mixin button-base {
   height: func.rem(53);
-  font-weight: 700;
-  font-size: vars.$font-btn;
+  font-weight: vars.$fw-bold;
+  font-size: vars.$font-base;
   border-radius: func.rem(4);
   text-transform: uppercase;
   cursor: pointer;
@@ -65,8 +64,8 @@
 
 @mixin text-link {
   color: #ff3f6c;
-  font-size: func.rem(13);
-  font-weight: 700;
+  font-size: vars.$font-sm;
+  font-weight: vars.$fw-bold;
   text-decoration: none;
   display: inline-block;
 }
